@@ -13,6 +13,7 @@ namespace ClassMetotDemo
             Console.WriteLine("Müşteri Soyadı : " + musteri.Soyadi);
             Console.WriteLine("Müşteri Şehir : " + musteri.Sehir);
             Console.WriteLine("Müşteri Ekleme İşlemi Başarıyla Gerçekleştirildi.");
+            Console.Write("\n");
         }
 
         public void Sil(Musteri musteri)
@@ -21,7 +22,8 @@ namespace ClassMetotDemo
             Console.WriteLine("Müşteri Adı : " + musteri.Adi);
             Console.WriteLine("Müşteri Soyadı : " + musteri.Soyadi);
             Console.WriteLine("Müşteri Şehir : " + musteri.Sehir);
-            Console.WriteLine("Müşteri Ekleme İşlemi Başarıyla Gerçekleştirildi.");
+            Console.WriteLine("Müşteri Silme İşlemi Başarıyla Gerçekleştirildi.");
+            Console.Write("\n");
         }
 
         public void Listele(Musteri[] musteris)
@@ -32,7 +34,8 @@ namespace ClassMetotDemo
                 Console.WriteLine("Müşteri Adı : " + customers.Adi);
                 Console.WriteLine("Müşteri Soyadı : " + customers.Soyadi);
                 Console.WriteLine("Müşteri Şehir : " + customers.Sehir);
-            }
+                Console.Write("\n");
+            }            
         }
     }
 }
